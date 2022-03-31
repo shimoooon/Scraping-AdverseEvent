@@ -17,7 +17,7 @@ url = "https://api.twitter.com/2/tweets/search/recent"
 
 #検索条件
 params = {'query': 
-'{副反応or服作業} {AEやSAE} {品目} -is:retweet'
+'{副反応or副作用} {AEやSAE} {品目} -is:retweet'
 , 'max_results': {int}}
 
 #検索条件を元に出力
